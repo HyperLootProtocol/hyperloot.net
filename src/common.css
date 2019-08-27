@@ -1,6 +1,6 @@
 .wrapper {
-  width: calc(100vw - 10rem);
-  margin-left: 10rem;
+  width: calc(100vw);
+  margin-top: -100vh;
 }
 
 .container {
@@ -22,11 +22,6 @@
 .section-heading span {
   color: var(--accent-color);
 }
-
-/* .page-wrapper section h2,
-.page-wrapper section h3 {
-  font-family: 'Gilroy';
-} */
 
 .page-wrapper section p {
   font-family: 'Gilroy-Medium';
@@ -54,6 +49,7 @@
 
   .wrapper {
     padding-bottom: 0;
+    padding-top: 0;
   }
 
   section .container {
